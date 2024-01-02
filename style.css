@@ -7,6 +7,109 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 /* Add styles here! */
+p {
+  margin: 16px 0;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  min-height: 45%;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 2rem;
+}
+
+.intro-chunk {
+  max-width: 384px;
+  padding: 16px;
+}
+
+main {
+  background: hsl(0deg, 0%, 40%);
+  min-height: 55%;
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  padding: 8px 16px;
+}
+
+.indented-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -24px;
+  padding: 16px 24px;
+  font-size: 1.25rem;
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  max-width: 384px;
+}
+
+
+/* Spacing
+
+This app uses an 8px unit. All spaces are a multiple of 8px:
+
+    8px
+    16px
+    24px
+    32px
+    48px
+    64px
+    96px
+    128px
+
+When it comes to max widths (e.g. the maximum width of the card), arbitrary values can be used.
+Font
+
+1 font is used in this project: Lato. It is already included in the stylesheet.
+
+For font sizes, the rem unit should be used.
+
+The scale is:
+
+    1rem
+    1.25rem
+    1.5rem
+    2rem
+
+By default, 1rem is equivalent to 16px.
+Color palette
+
+Primary (green):
+
+    hsl(160deg, 100%, 30%)
+
+Secondary (gold):
+
+    hsl(45deg, 100%, 50%) (lighter)
+    hsl(45deg, 100%, 40%) (darker)
+
+Grays:
+
+    hsl(0deg, 0%, 0%) (black)
+    hsl(0deg, 0%, 10%) (very dark)
+    hsl(0deg, 0%, 30%) (dark)
+    hsl(0deg, 0%, 40%) (medium)
+    hsl(0deg, 0%, 60%) (light)
+    hsl(0deg, 0%, 100%) (white) */
