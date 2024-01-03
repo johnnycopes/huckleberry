@@ -62,5 +62,5 @@ main {
   font-size: 1.25rem;
   background: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
-  max-width: 384px;
+  width: fit-content;
 }
